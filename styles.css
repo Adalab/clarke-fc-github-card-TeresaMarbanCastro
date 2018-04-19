@@ -1,0 +1,18 @@
+body{
+    background-color: lightgrey;
+    box-sizing: border-box;
+}
+main{
+    height: 90vh;
+}
+.menu{
+    width: 200px;
+
+}
+footer{
+    height: 10vh;
+}
+.logo{
+height: 60px;
+width: 160px;
+}
