@@ -1,18 +1,5 @@
-'use strict'
-
-var request = new XMLHttpRequest();
-request.open('GET', 'https://api.github.com/users/Adalab/orgs')
-request.addEventListener('load', getUsers);
-
-function getUsers(){
-    var response = request.responseText;
-    var responseJSON = JSON.parse(response);
-     
-    var container = document.querySelector('.container');
-    container.innerHTML = responseJSON.message;
-}
-request.send();
-
+(function(){
+	'use strict'
 	let adalabUsers = [];
 	let adalaberInfo = {};
 	const userSelect = document.getElementById('user-select');
@@ -86,4 +73,5 @@ request.send();
             </div>
         </div>`;
     memberSince.innerHTML = `Miembro desde ${new Date(adalaberInfo.created_at).getFullYear()}`;
-}
+};
+})()

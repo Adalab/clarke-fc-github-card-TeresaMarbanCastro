@@ -9,6 +9,7 @@ Acciones a realizar y pasos:
     2. Hacer petición a la API
     3. Lista de nombres en desplegable.
     4. Pintar los datos que hemos pedido a la API
+    5. Estilos
 
 Acciones de ejecución obligatoria:
 
